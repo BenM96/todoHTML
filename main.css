@@ -1,0 +1,83 @@
+html{
+    background-color: grey;
+}
+
+body{
+    padding: 0 0 0 0;
+    width: 80%;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+#header{
+    text-align: center;
+    background: rgb(57, 57, 228);
+    margin-bottom: 0;
+}
+
+#header h1{
+    margin-bottom: 0;
+}
+
+
+#user{
+    margin: 0;
+    text-align: center;
+    background-color: purple;
+}
+
+#username{
+    margin: 0;
+}
+
+#lists{
+    text-align: center;   
+}
+
+#logout, #logout a:visited{
+    margin: 10;
+    text-align: right;
+    color: red;
+}
+
+
+
+#addList{
+    margin: 5;
+    text-align: right;
+    float: right;
+}
+
+#addItem{
+    margin: 10;
+}
+
+#currentListName{
+    margin: 10;
+    width: 25%;
+    margin-right: 0;
+}
+
+
+#currentList{
+    margin: 10;
+    padding: 0 0 0 0;
+    border-collapse: collapse;
+    width: 70%;
+    
+}
+
+
+
+
+#currentList td, #currentList th{
+    padding: 5 20 5 5;
+    border: 1px solid black;
+}
+
+#deleteList{
+    margin: 10;
+}

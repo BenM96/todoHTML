@@ -1,0 +1,62 @@
+<html>
+    <link rel="stylesheet" href="./main.css"/>
+
+
+    <header id="header">
+        <h1>ToDo lists</h1> 
+              
+    </header>
+
+    
+
+    <nav id="user">
+        <h2 id="username"></h2>
+        <h3>Lists:</h3>
+        <p id="lists">
+                  
+        </p>
+        <nav id="logout" >
+                <a href="#" >logout</a>
+            </nav>    
+    </nav>
+
+    <form id="addList">
+        New list
+        <br>
+        <input type="text" placeholder="List Name">
+        <button>add</button>
+    </form>
+
+    
+    <body>
+
+            <h2 id="currentListName">list i</h2>
+
+
+        <form id="addItem">
+            Add Item <br>
+            <input type="text" placeholder="new item">
+            <button>add</button>
+        </form>
+
+        
+        <table id="currentList" cellspacing="10">
+            <tr align="left" class="row">
+                <th id="item">item</th>
+                <th >completed</th>
+            </tr>
+            
+
+        </table>
+
+        <br><br>
+        <button id="deleteList">Delete List!</button>
+
+
+
+
+
+        <script src="main.js"></script>
+    </body>
+
+</html>
